@@ -1,5 +1,11 @@
 # VCPlayerBot
 
+### Deploy To Render (Paid)
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?)
+
+
+
 ![GitHub Repo stars](https://img.shields.io/github/stars/subinps/VCPlayerBot?color=blue&style=flat)
 ![GitHub issues](https://img.shields.io/github/issues/subinps/VCPlayerBot)
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/subinps/VCPlayerBot)
