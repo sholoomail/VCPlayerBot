@@ -1,0 +1,29 @@
+services:
+  - type: worker
+    name: sawtolquran
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    repo: https://github.com/sholoomail/sawtolquran.git
+    branch: main
+    envVars:
+      - key: BOT_TOKEN 
+        sync: false
+      - key: API_ID 
+        sync: false
+      - key: API_HASH 
+        sync: false
+      - key: SESSION_STRING 
+        sync: false
+      - key: CHAT 
+        sync: false
+      - key: QUALITY 
+        value: medium
+      - key: DATABASE_URI 
+        sync: false
+      - key: ADMINS 
+        sync: false
+      - key: ADMIN_ONLY 
+        value: true
+      - key: IS_VIDEO 
+        value: true
